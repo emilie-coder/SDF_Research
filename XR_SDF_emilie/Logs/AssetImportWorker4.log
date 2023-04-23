@@ -1,0 +1,337 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.14f1 (b2c9b1ac6cc0) revision 11717041'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32690 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/cslabwin/Desktop/XR_SDF_emilie
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+62673
+Successfully changed project path to: C:/Users/cslabwin/Desktop/XR_SDF_emilie
+C:/Users/cslabwin/Desktop/XR_SDF_emilie
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32300] Host "[IP] 10.28.54.6 [Port] 0 [Flags] 2 [Guid] 3891962140 [EditorId] 3891962140 [Version] 1048832 [Id] WindowsEditor(7,CSB7-BHN9RT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32300] Host "[IP] 10.28.54.6 [Port] 0 [Flags] 2 [Guid] 3891962140 [EditorId] 3891962140 [Version] 1048832 [Id] WindowsEditor(7,CSB7-BHN9RT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 14.94 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.01 ms.
+Initialize engine version: 2022.2.14f1 (b2c9b1ac6cc0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cslabwin/Desktop/XR_SDF_emilie/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12108 MB
+    Driver:   31.0.15.1766
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008245 seconds.
+- Loaded All Assemblies, in  0.257 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 514 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.762 seconds
+Domain Reload Profiling:
+	ReloadAssembly (158ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (91ms)
+				TypeCache.Initialize (90ms)
+					TypeCache.ScanAssembly (89ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (717ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (594ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.599 seconds
+Refreshing native plugins compatible for Editor in 6.71 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <cbc72d4a9767498db39486e941a498e3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <d9db1e7924774af688adb5dbcac728ba>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.479 seconds
+Domain Reload Profiling:
+	ReloadAssembly (175ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		LoadAllAssembliesAndSetupDomain (421ms)
+			LoadAssemblies (251ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+				TypeCache.Initialize (205ms)
+					TypeCache.ScanAssembly (201ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 10.91 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3867 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (67.4 KB). Loaded Objects now: 4335.
+Memory consumption went from 124.8 MB to 124.8 MB.
+Total: 3.347700 ms (FindLiveObjects: 0.304000 ms CreateObjectMapping: 0.129900 ms MarkObjects: 2.818200 ms  DeleteObjects: 0.094600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 810089.245449 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs
+  artifactKey: Guid(ca05aff1f90b74f429ab1a0c98f36a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs using Guid(ca05aff1f90b74f429ab1a0c98f36a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d88057b9b7002f911e1df01bd531176') in 0.001766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.084890 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+  artifactKey: Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab using Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37526f4f712615ff283ce8501f9c2fbf') in 0.022454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 171.852578 seconds.
+  path: Assets/XR/Quest 2 Headset
+  artifactKey: Guid(daeb2d18dad5cb646aeab8021e84dac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Quest 2 Headset using Guid(daeb2d18dad5cb646aeab8021e84dac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694ec260a023393c45137502814dbd8e') in 0.000453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.898684 seconds.
+  path: Assets/XR/Quest 2 Headset/Quest 2 Headset
+  artifactKey: Guid(3794a3c1160f813489ea0cd0a50d0a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Quest 2 Headset/Quest 2 Headset using Guid(3794a3c1160f813489ea0cd0a50d0a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656cb4b104e8e114f97856c3b4de9d94') in 0.001039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.083150 seconds.
+  path: Assets/XR/Quest 2 Headset/Quest 2 Headset/Quest2_Front.png
+  artifactKey: Guid(76cad1ff1238ddc4b873b20bda5e1fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Quest 2 Headset/Quest 2 Headset/Quest2_Front.png using Guid(76cad1ff1238ddc4b873b20bda5e1fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ed14ceedd27ee55b9c719f4c548b3e') in 0.080825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/XR/Quest 2 Headset/Quest 2 Headset/QuestThreeQuarter_Back.png
+  artifactKey: Guid(4f886ed82e8396d42b8af165325affd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Quest 2 Headset/Quest 2 Headset/QuestThreeQuarter_Back.png using Guid(4f886ed82e8396d42b8af165325affd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96797ec227f94e2d3510b939f31a76d5') in 0.010576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/XR/Quest 2 Headset/Quest 2 Headset/Quest2_Side_strapless.png
+  artifactKey: Guid(eeb2249fc9062f849a4208e5769267e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Quest 2 Headset/Quest 2 Headset/Quest2_Side_strapless.png using Guid(eeb2249fc9062f849a4208e5769267e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc42841fb7c1283f5c349270261f2ef') in 0.008806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/XR/Quest 2 Headset/Quest 2 Headset/QuestThreeQuarter_Back_strapless.png
+  artifactKey: Guid(c6d4e66b075c85a4f8415b2472413af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Quest 2 Headset/Quest 2 Headset/QuestThreeQuarter_Back_strapless.png using Guid(c6d4e66b075c85a4f8415b2472413af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d5e363755928f205562111eac02b13') in 0.052599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.753542 seconds.
+  path: Assets/XR/Quest 2 Headset/Quest 2 Headset/Quest2_ThreeQuarterBackView.eps
+  artifactKey: Guid(a2aa77c6a86993c46bab5d6b1940d32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Quest 2 Headset/Quest 2 Headset/Quest2_ThreeQuarterBackView.eps using Guid(a2aa77c6a86993c46bab5d6b1940d32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac422efccf8a3937eea1fed7f2946098') in 0.001041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.517902 seconds.
+  path: Assets/XR/Quest 2 Headset/Quest 2 Headset/Quest2_SideView_strapless.eps
+  artifactKey: Guid(b1ae0a1dfb008a246a61ed72fea32165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Quest 2 Headset/Quest 2 Headset/Quest2_SideView_strapless.eps using Guid(b1ae0a1dfb008a246a61ed72fea32165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45d826f86e225e1384ea7a48c623e33') in 0.000928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 76.089019 seconds.
+  path: Assets/XR/oculus-controller-art-v1.5/Oculus Touch for Quest 2/quest2_controllers_div2.fbx
+  artifactKey: Guid(cf3a0dbf00ac52145924ba698af3461e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/oculus-controller-art-v1.5/Oculus Touch for Quest 2/quest2_controllers_div2.fbx using Guid(cf3a0dbf00ac52145924ba698af3461e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8a1b4c23c82481afaa5fc057764b4b') in 0.351818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/XR/oculus-controller-art-v1.5/Quest 2 Headset/Quest 2 Headset/Quest2_Side.png
+  artifactKey: Guid(38f6ea97fdaf2eb4a96dbbea98a86675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/oculus-controller-art-v1.5/Quest 2 Headset/Quest 2 Headset/Quest2_Side.png using Guid(38f6ea97fdaf2eb4a96dbbea98a86675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f8c3dab91dd20c8098225ae30b67b0') in 0.010814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/XR/oculus-controller-art-v1.5/Quest 2 Headset/Quest 2 Headset/Quest2_Front.png
+  artifactKey: Guid(583678d8a44ec7648a051a032bfb3057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/oculus-controller-art-v1.5/Quest 2 Headset/Quest 2 Headset/Quest2_Front.png using Guid(583678d8a44ec7648a051a032bfb3057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f7062c40e81b14de52a7a9a37342f7') in 0.010071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/XR/oculus-controller-art-v1.5/Oculus Touch for Quest 2/Quest2_controller.png
+  artifactKey: Guid(2665427bbad4e3046ade5f337bf6c3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/oculus-controller-art-v1.5/Oculus Touch for Quest 2/Quest2_controller.png using Guid(2665427bbad4e3046ade5f337bf6c3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cf39ff4452d59544c08af9d309c5d9') in 0.011266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/XR/oculus-controller-art-v1.5/Quest 2 Headset/Quest 2 Headset/Quest2_Front_strapless.png
+  artifactKey: Guid(8998365e39cfe8742a4ec68399f0a61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/oculus-controller-art-v1.5/Quest 2 Headset/Quest 2 Headset/Quest2_Front_strapless.png using Guid(8998365e39cfe8742a4ec68399f0a61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c15c1dafb40244a7e17600a5d18943') in 0.009170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/XR/oculus-controller-art-v1.5/Oculus Touch for Quest Pro/models/questpro_controllers_right.fbx
+  artifactKey: Guid(feed23c76f6a49d4bb4364fe4bb2e576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/oculus-controller-art-v1.5/Oculus Touch for Quest Pro/models/questpro_controllers_right.fbx using Guid(feed23c76f6a49d4bb4364fe4bb2e576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546f071f3d2be67368a2de7fba6ea8cb') in 0.244532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/XR/oculus-controller-art-v1.5/Oculus Touch for Quest 2/quest2_controllers_div0.fbx
+  artifactKey: Guid(8a654fc43e99ae942b30f6f27aabfb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/oculus-controller-art-v1.5/Oculus Touch for Quest 2/quest2_controllers_div0.fbx using Guid(8a654fc43e99ae942b30f6f27aabfb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefe61bc1176e08f40f22ba1f6924eab') in 0.034151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
